@@ -13,6 +13,7 @@
     pkgs.adw-gtk3
     pkgs.papirus-icon-theme
     pkgs.vimix-cursors
+    wl-clipboard-rs
   ];
 
   xdg.configFile."niri/config.kdl" = {

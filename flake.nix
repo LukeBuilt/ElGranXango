@@ -56,8 +56,8 @@
           ./hosts/desktop/configuration.nix
           # nixpkgs-xr module
           nixpkgs-xr.nixosModules.nixpkgs-xr
-          # disko.nixosModules.disko
-          # ./hosts/desktop/disko.nix
+          disko.nixosModules.disko
+          ./hosts/desktop/disko.nix
           home-manager.nixosModules.default
           {
             home-manager.extraSpecialArgs = { inherit inputs; };
