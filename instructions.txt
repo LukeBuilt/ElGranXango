@@ -1,0 +1,5 @@
+sudo nix run github:nix-community/disko/latest -- \
+  --mode destroy,format,mount \
+  /repo/hosts/desktop/disko.nix
+
+sudo nixos-install --flake /repo#my-nixos
